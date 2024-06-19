@@ -1,18 +1,4 @@
-// No Typescript
-<script setup >
-import { defineProps } from 'vue';
 
-// Define props using defineProps
-const props = defineProps({
-    message: String,    // String type prop
-    priority: {
-        type: Number,     // Number type prop
-        default: 1        // Default value for priority prop
-    },
-    name: String
-});
-
-</script>
 
 // Typescript way
 <script setup lang="ts">
