@@ -1,12 +1,5 @@
-<template>
-    <div>
-        <h2>Props Example</h2>
-        <p>Message: {{ message }}</p>
-        <p>Priority: {{ priority }}</p>
-    </div>
-</template>
-
-<script setup lang="ts">
+// No Typescript
+<script setup >
 import { defineProps } from 'vue';
 
 // Define props using defineProps
@@ -18,4 +11,17 @@ const props = defineProps({
     },
     name: String
 });
+
+</script>
+
+// Typescript way
+<script setup lang="ts">
+
+interface Props { // can be in separate file ex if the type is a big object
+    foo: string
+    bar?: number
+}
+
+const props = defineProps<Props>()
+
 </script>

@@ -15,6 +15,7 @@
 - **`v-if`**: Conditional rendering based on a truthy value.
 - **`v-for`**: Iterates over a list of items to render multiple elements.
 - **`v-model`**: Creates two-way data bindings on form inputs.
+- **`v-bind`**: bind an attribute to an expression shorthand :something="" .
 
 - **[Vue 3 Built-in Directives](https://vuejs.org/api/built-in-directives.html#v-for)**
 
@@ -42,10 +43,14 @@
 
 ### info
 
+
+
 - Use `{{ variable }}` for data binding in templates.
 - Capitalize component names (`<MyComponent />`).
 - Use `:prop="variable"` for one-way data binding in Vue.js.
 - Use `@` for DOM Events eks @click, @click.ctrl, @keydown 
+
+![img.png](img.png)
 
 
 
