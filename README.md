@@ -1,4 +1,4 @@
-# VUE BASIC
+# VUE BASICS
 
 ### Reactive State
 
