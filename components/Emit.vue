@@ -20,3 +20,10 @@ const handleClick = () => {
 <style scoped>
 
 </style>
+
+<!--when calling comp in parent use v-model:-->
+<!--
+<template>
+    <Card v-model:age="age" />
+</template>
+-->
